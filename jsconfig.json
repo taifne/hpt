@@ -1,0 +1,44 @@
+{
+    "compilerOptions": {
+        "checkJs": true,
+        "baseUrl": ".",
+        "paths": {
+            "@configs/*": [
+                "./src/configs/*"
+            ],
+            "@constants/*": [
+                "./src/constants/*"
+            ],
+            "@handler/*": [
+                "./src/handler/*"
+            ],
+            "@controllers/*": [
+                "./src/controllers/*"
+            ],
+            "@middleware/*": [
+                "./src/middleware/*"
+            ],
+            "@databases/*": [
+                "./src/databases/*"
+            ],
+            "@models/*": [
+                "./src/models/*"
+            ],
+            "@routers/*": [
+                "./src/routers/*"
+            ],
+            "@services/*": [
+                "./src/services/*"
+            ],
+            "@helpers/*": [
+                "./src/helpers/*"
+            ],
+            "@utils/*": [
+                "./src/utils/*"
+            ],
+            "@src/*": [
+                "./src/*"
+            ]
+        }
+    }
+}
